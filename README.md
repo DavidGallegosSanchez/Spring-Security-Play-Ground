@@ -1,2 +1,5 @@
 # Spring-Security-Play-Ground
-Concepts of Spring Security 6 , SpringBoot 3 Security, CORs, CSRF, JWT, OAUTH2, OpenID Connect and KeyCloak.
+> [!NOTE]
+> **Section1/SpringSecurityBasic**
+> 
+> Securing Spring Boot basic app using Spring Security and static credentials configuration inside application properties file 
