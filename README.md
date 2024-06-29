@@ -16,13 +16,23 @@
 
 
 > [!NOTE]
-> **Section2/SpringSecurity**
+> **Section2/SpringSecurity** -> **Changing the default security configurations**
 > 
 > Backend REST services (Account, Balance, Card, Contact, Loan and Notice) and setup **default configuration**, **permitAll** and **denyAll**.
 >
 > Secure -> myAccount, myBalance, myLoans, myCards
 > 
 > No Secure -> contact, notices
+>
+> **Username: dgallegos**
+> 
+> **Password: 12345**
+
+
+
+> [!NOTE]
+> **Section3/SpringSecurity** -> **How to configure multiple users**
+>
 >
 > **Username: dgallegos**
 > 
