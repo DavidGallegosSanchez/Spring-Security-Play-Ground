@@ -9,6 +9,21 @@
 > 
 > Securing Spring Boot basic app using Spring Security and static credentials configuration inside the application properties file.
 >
-> Username: dgallegos
+> **Username: dgallegos**
 > 
-> Password: 12345
+> **Password: 12345**
+>
+
+
+> [!NOTE]
+> **Section2/SpringSecurity**
+> 
+> Backend REST services (Account, Balance, Card, Contact, Loan and Notice) and setup **default configuration**, **permitAll** and **denyAll**.
+>
+> Secure -> myAccount, myBalance, myLoans, myCards
+> 
+> No Secure -> contact, notices
+>
+> **Username: dgallegos**
+> 
+> **Password: 12345**
