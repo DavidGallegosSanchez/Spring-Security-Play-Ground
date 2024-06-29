@@ -10,4 +10,5 @@
 > Securing Spring Boot basic app using Spring Security and static credentials configuration inside the application properties file.
 >
 > Username: dgallegos
+> 
 > Password: 12345
