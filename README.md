@@ -37,4 +37,7 @@
 > Command to create MySQL image in Docker: docker run -p 3306:3306 --name springsecurity -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=eazybank -d mysql
 >
 > Run script.sql (..resource/sql/scropts.sql) in the IDE of MySQL to create tables, users and authorities.
+>
+>  **Username: johndoe@example.com**
 > 
+> **Password: 54321**
