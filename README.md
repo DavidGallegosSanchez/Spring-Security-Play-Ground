@@ -31,9 +31,10 @@
 
 
 > [!NOTE]
-> **Section3/SpringSecurity** -> **How to configure multiple users**
+> **Section3/SpringSecurity** -> **How to configure multiple users using _InMemoryUserDetailsManager_ and creating _MySQL docker data base_**
 >
 >
-> **Username: dgallegos**
+> Command to create MySQL image in Docker: docker run -p 3306:3306 --name springsecurity -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=eazybank -d mysql
+>
+> Run script.sql (..resource/sql/scropts.sql) in the IDE of MySQL to create tables, users and authorities.
 > 
-> **Password: 12345**
