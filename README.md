@@ -46,4 +46,9 @@
 > [!NOTE]
 > **Section4/PasswordManagement** -> **Password management with password encoders**
 >
+> How to encode password when we create a new user (LoginController):
+> 
+> String hashPwd = passwordEncoder.encode(customer.getPwd());
+> 
+> customer.setPwd(hashPwd);
 
