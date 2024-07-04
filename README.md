@@ -52,3 +52,8 @@
 > 
 > customer.setPwd(hashPwd);
 
+
+> [!NOTE]
+> **Section5/AuthenticationProvider** 
+>
+> Use the customer created in the section 4 with password encode to try the login.
