@@ -81,3 +81,15 @@
 > 401 -> Authentication Error
 > 
 > 403 -> Authorization Error
+
+
+> [!NOTE]
+> **Section8/Filters** 
+>
+> Create specific filters in a filter package
+> 
+> **Before** -> .addFilterBefore(new RequestValidationBeforeFilter(), BasicAuthenticationFilter.class), see **ProjectSecurityConfig.class**
+>
+> **At** -> .addFilterAt(new AuthoritiesLoggingAtFilter(), BasicAuthenticationFilter.class), see **ProjectSecurityConfig.class**
+>
+> **After** -> .addFilterAfter(new AuthoritiesLoggingAfterFilter(), BasicAuthenticationFilter.class), see **ProjectSecurityConfig.class**
