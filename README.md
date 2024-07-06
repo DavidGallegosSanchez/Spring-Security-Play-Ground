@@ -67,3 +67,5 @@
 > Start the forntend with ng serve.
 > 
 > How to fix CORs -> **@CrossOrigin** or http.cors().configurationSource() see **ProjectSceurityConfig.java configuration class**.
+> 
+> How to fix CRSF -> see **defaultSecurityFilterChain method of ProjectSceurityConfig.java configuration class** and **validateUser metohs of login.component, validateLoginDetail method of login.service and app.request.interceptor.ts file (line 21) in frontend**
