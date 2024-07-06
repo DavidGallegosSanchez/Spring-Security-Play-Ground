@@ -57,3 +57,13 @@
 > **Section5/AuthenticationProvider** 
 >
 > Use the customer created in the section 4 with password encode to try the login.
+
+
+> [!NOTE]
+> **Section6/CORs&CSRF** 
+>
+> Run the new schema in DataBase before run the app.
+> Install Node.js, Angula CLI and Visual Studio.
+> Start the forntend with ng serve.
+> 
+> How to fix CORs -> **@CrossOrigin** or http.cors().configurationSource() see **ProjectSceurityConfig.java configuration class**.
