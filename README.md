@@ -93,3 +93,12 @@
 > **At** -> .addFilterAt(new AuthoritiesLoggingAtFilter(), BasicAuthenticationFilter.class), see **ProjectSecurityConfig.class**
 >
 > **After** -> .addFilterAfter(new AuthoritiesLoggingAfterFilter(), BasicAuthenticationFilter.class), see **ProjectSecurityConfig.class**
+
+> [!NOTE]
+> **Section9/JSONWebToken** 
+>
+> Add **jsonwebtoken dependencies** in pom x3
+>
+> New filter to create a JWT -> **JWTTokenGeneratorFilter.class** and add .addFilterAfter(new JWTTokenGeneratorFilter(), BasicAuthenticationFilter.class) in **ProjectSecurityConfig.class**
+>
+> New filter to validate a JWT -> **JWTTokenValidatorFilter** and add .addFilterBefore(new JWTTokenValidatorFilter(), BasicAuthenticationFilter.class) in **ProjectSecurityConfig.class**
