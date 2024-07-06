@@ -43,7 +43,7 @@ public class ProjectSecurityConfig {
                 config.setAllowedMethods(Collections.singletonList("*"));
                 config.setAllowCredentials(true);
                 config.setAllowedHeaders(Collections.singletonList("*"));
-                config.setExposedHeaders(List.of("Aithorization"));
+                config.setExposedHeaders(List.of("Authorization"));
                 config.setMaxAge(3600L);
                 return config;
             }
