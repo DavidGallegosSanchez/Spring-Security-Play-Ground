@@ -115,3 +115,8 @@
 > Add **@PreFilter("filterObject.contactName != 'Test'")** in saveContactInquiryDetails method of ContactController
 >
 > Add **@PostFilter("filterObject.contactName != 'Test'")** in saveContactInquiryDetails method of ContactController
+
+> [!NOTE]
+> **Section12/OAuth2** 
+>
+> Add **oauth2 dependency** in pom
