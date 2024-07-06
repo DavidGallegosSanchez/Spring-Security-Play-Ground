@@ -102,3 +102,16 @@
 > New filter to create a JWT -> **JWTTokenGeneratorFilter.class** and add .addFilterAfter(new JWTTokenGeneratorFilter(), BasicAuthenticationFilter.class) in **ProjectSecurityConfig.class**
 >
 > New filter to validate a JWT -> **JWTTokenValidatorFilter** and add .addFilterBefore(new JWTTokenValidatorFilter(), BasicAuthenticationFilter.class) in **ProjectSecurityConfig.class**
+
+> [!NOTE]
+> **Section10/SecurityLevel** 
+>
+> Modify **requests.requestMatchers("/myLoans").authenticated();** in ProjectSecurityConfig.class and add **@EnableMethodSecurity(prePostEnabled = true,  securedEnabled = true,  jsr250Enabled = true)** in BankBackendApplication.class.
+> 
+> Add **@PreAuthorize("hasRole('USER')")** annotation of AOP in LoanRepository
+>
+> Add **@PostAuthorize("hasRole('USER')")** annotation of AOP in getLoanDetails method of LoansController
+>
+> Add **@PreFilter("filterObject.contactName != 'Test'")** in saveContactInquiryDetails method of ContactController
+>
+> Add **@PostFilter("filterObject.contactName != 'Test'")** in saveContactInquiryDetails method of ContactController
