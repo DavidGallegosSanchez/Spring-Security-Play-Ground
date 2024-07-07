@@ -120,3 +120,20 @@
 > **Section12/OAuth2** 
 >
 > Add **oauth2 dependency** in pom
+
+> [!NOTE]
+> **Section13/OAuth2InApplication** 
+>
+> Install **KEYCLOAK Server** for add authentication to applications and secure services with minimum effort. No need to deal with storing users or authenticating users.
+>
+> Docker command to install KeyCloak: **docker run --name keycloak -p 8180:8080 -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=admin quay.io/keycloak/keycloak:25.0.1 start-dev**
+> 
+> **ername** admin
+> 
+> **password** admin
+>
+> Add oauth2-resource-server dependency in the pom.
+>
+> Keycloak setup
+>
+> npm install keycloak-angular keycloak-js in angular project
